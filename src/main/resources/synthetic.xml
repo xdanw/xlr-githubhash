@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<type type="gitInfo.SetHashTitle" extends="xlrelease.PythonScript" label="Set title to hash ID">
+  <property name="scriptLocation" required="false" hidden="true" default="gitHashId.py" />
+  <property name="repoOwner" category="input" required="true" label="Repository Owner" />
+  <property name="repoNane" category="input" required="true" label="Repository Name" />
+  <property name="commitHash" category="output" label="Git commit hash" />
+</type>
+
+</synthetic>
